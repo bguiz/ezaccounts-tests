@@ -1,0 +1,44 @@
+{
+  "name": "ezaccounts",
+  "version": "0.0.0",
+  "description": "User account management system in NodeJs made easy",
+  "main": "mocha-tests.js",
+  "scripts": {
+    "test": "mocha ./mocha-tests.js",
+    "coverage": "multi='spec=- html-cov=blanket.html' mocha -R mocha-multi ./mocha-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bguiz/ezaccounts-tests"
+  },
+  "keywords": [
+    "user",
+    "account",
+    "password",
+    "email",
+    "login",
+    "authentication",
+    "roles",
+    "role-based"
+  ],
+  "author": "bguiz",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/bguiz/ezaccounts-tests/issues"
+  },
+  "homepage": "https://github.com/bguiz/ezaccounts-tests",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "chai": "^1.10.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.0.1",
+    "mocha-multi": "^0.5.0",
+    "mongodb-fixtures": "0.0.5",
+    "should": "^4.3.0",
+    "sinon": "^1.12.1",
+    "superagent": "^0.21.0",
+    "supertest": "^0.15.0"
+  }
+}
