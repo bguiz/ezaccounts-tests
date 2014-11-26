@@ -1,6 +1,6 @@
 {
   "name": "ezaccounts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "User account management system in NodeJs made easy",
   "main": "mocha-tests.js",
   "scripts": {
